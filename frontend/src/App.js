@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
-const API = 'http://localhost:4000/api';
+const API = 'https://e-commerce-site-1bj5.onrender.com';
 
 function useAuth() {
   const [token, setToken] = useState(localStorage.getItem('token'));
